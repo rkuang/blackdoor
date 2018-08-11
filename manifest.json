@@ -1,0 +1,11 @@
+{
+    "name": "Blackdoor",
+    "version": "1.0",
+    "description": "Block those pesky spammy companies on Glassdoor",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "manifest_version": 2
+}
