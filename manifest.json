@@ -1,10 +1,12 @@
 {
     "name": "blackdoor",
     "version": "1.0",
-    "description": "Block those pesky spammy companies on glassdoor",
+    "description": "Blacklist those pesky spammy companies on glassdoor",
+    "permissions": ["storage"],
     "content_scripts": [{
         "matches": ["https://*.glassdoor.com/Job/jobs.htm?*"],
         "js": ["content.js"]
     }],
+    "options_page": "options.html",
     "manifest_version": 2
 }
