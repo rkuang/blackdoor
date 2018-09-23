@@ -12,6 +12,7 @@ document.getElementById("myButton").addEventListener('click', function() {
     list[input] = 0;
     console.log(list);
     chrome.storage.sync.set({'blacklist': list}, function() {
-        console.log("Saving to storage...")
+        console.log("Saving to storage...");
     })
+    document.getElementById("textField").value = "";
 });
