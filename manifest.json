@@ -4,7 +4,7 @@
     "description": "Blacklist those pesky spammy companies on glassdoor",
     "permissions": ["storage"],
     "content_scripts": [{
-        "matches": ["https://*.glassdoor.com/Job/jobs.htm?*"],
+        "matches": ["https://*.glassdoor.com/Job/*"],
         "js": ["content.js"]
     }],
     "options_page": "options.html",
