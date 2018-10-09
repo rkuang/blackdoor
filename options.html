@@ -6,13 +6,40 @@
                 font-size: 1.25em;
                 margin: 40px 25%;
             }
+
+            input.text {
+                width: 50%;
+                padding: 5px;
+                font-size: 1em;
+
+                border-radius: 5px;
+                border-style: solid;
+            }
+
+            button {
+                font-size: 1em;
+                border-radius: 5px;
+                border-color: black;
+                border-width: 2px;
+                height: 30px;
+
+                background: black;
+                color: white;
+
+                text-transform: uppercase;
+            }
+
+            button:hover {
+                opacity: .8;
+            }
         </style>
     </head>
     <body>
         <h1>blackdoor options</h1>
         <h4>Add a company to blacklist by employer id</h4>
-        <input type="text" id="textField">
+        <input class="text" type="text" id="textField">
         <button id="myButton">Add</button>
+
         <ul id="blacklist">
             
         </ul>
